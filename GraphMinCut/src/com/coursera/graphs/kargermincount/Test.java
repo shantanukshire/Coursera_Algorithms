@@ -41,7 +41,6 @@ public class Test {
 							edgeList.add(e);
 							edgeMap.put(e,1);
 						}else {
-							System.out.println("Edge already present " + e.getSource() + " " + e.getDest());
 						}
 					}
 				}
@@ -54,7 +53,6 @@ public class Test {
 				if(itrMinCut < minCut) {
 					minCut = itrMinCut;
 				}
-				//System.out.println("Itr " + algoItr + " cut: " + itrMinCut);
 			}
 
 			System.out.println("Minimum Cut of Graph for " + TOTAL_ALGO_ITERATIONS + 
