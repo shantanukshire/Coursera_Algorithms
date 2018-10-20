@@ -74,16 +74,5 @@ public class Test {
 			scn.close();
 		}
 	}
-	
-	private static boolean isInArray(int[] arr,int num) {
-		boolean ret = false;
-		for(int i=0; i<arr.length; ++i) {
-			if(arr[i] == num) {
-				ret = true;
-				break;
-			}
-		}
-		return ret;
-	}
 
 }
