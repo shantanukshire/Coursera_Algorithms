@@ -26,7 +26,6 @@ public class Test {
 		
 		if(sc.hasNext()) {
 			TOTAL_SIZE = Integer.parseInt(sc.next());
-			System.out.println("Total size: " + TOTAL_SIZE);
 		}
 		
 		if(TOTAL_SIZE > 0) {
